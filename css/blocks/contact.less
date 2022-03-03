@@ -1,0 +1,38 @@
+// main: ../style.less
+
+.contact {
+    display: flex;
+    background: url('https://via.placeholder.com/477x700') right center no-repeat;
+}
+
+.contact__left {
+    width: 47%;
+    padding: 2rem;
+}
+
+.contact__info {
+    margin: 2rem 0 3rem;
+    padding: 0;
+    list-style: none;
+}
+
+.contact__info-item {
+    margin-bottom: .75rem;
+    display: flex;
+    align-items: center;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.contact__info-feedback {
+    margin-left: 1rem;
+    color: @black;
+    font-weight: 300;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
